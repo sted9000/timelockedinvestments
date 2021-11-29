@@ -1,0 +1,77 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "anatole"
+summarylength = 50
+
+[params]
+    profilePicture = "images/profile.png"
+    Title = "Twitter Timelocked Investments"
+    description = "An absurd speculative portfolio by Ted Slocum"
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "twitter"
+url = "https://github.com/lxndrblz/anatole/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "github"
+url = "https://www.instagram.com/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:mail@example.com"
+
+[[menu.main]]
+name = "Posts"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Hypothesis"
+url = "/hypothesis"
+weight = 2
+
+[[menu.main]]
+name = "Performance"
+url = "/performance"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 4
+
+
+#[menus]
+#    [[main]]
+#    name = "Home"
+#    identifier = "home"
+#    weight = 100
+#    url = "/"
+#
+#    [[main]]
+#    name = "Posts"
+#    weight = 200
+#    identifier = "posts"
+#    url = "/post/"
+#
+#    [[main]]
+#    name = "About"
+#    weight = 300
+#    identifier = "about"
+#    url = "/about/"
+#
+#    [[main]]
+#    name = "Contact"
+#    weight = 400
+#    identifier = "contact"
+#    url = "/contact/"
+#
+#    [[footer]]
+#    name = "imprint"
+#    weight = 1
+#    identifier = "imprint"
+#    url = "/imprint/"
