@@ -12,17 +12,7 @@ summarylength = 50
 [[params.socialIcons]]
 icon = "fab fa-twitter"
 title = "twitter"
-url = "https://github.com/lxndrblz/anatole/"
-
-[[params.socialIcons]]
-icon = "fab fa-github"
-title = "github"
-url = "https://www.instagram.com/"
-
-[[params.socialIcons]]
-icon = "fas fa-envelope"
-title = "e-mail"
-url = "mailto:mail@example.com"
+url = "https://twitter.com/TTLInvestments"
 
 [[menu.main]]
 name = "Posts"
@@ -56,7 +46,7 @@ weight = 4
 #    name = "Posts"
 #    weight = 200
 #    identifier = "posts"
-#    url = "/post/"
+#    url = "/posts/"
 #
 #    [[main]]
 #    name = "About"
