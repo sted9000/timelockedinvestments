@@ -1,13 +1,14 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = "anatole"
+theme = ["hugo-chart", "anatole"]
 summarylength = 50
 
 [params]
     profilePicture = "images/profile.png"
     Title = "Twitter Timelocked Investments"
     description = "An absurd speculative portfolio by Ted Slocum"
+    readMore = true
 
 [[params.socialIcons]]
 icon = "fab fa-twitter"
