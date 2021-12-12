@@ -7,14 +7,12 @@ layout: investment
 
 A boring, but necessary, choice for the second investment of Twitter Timelocked Investements.
 
-{{< tweet user="paulg" id="1426254478278287367" >}}
+{{< tweet 1426254478278287367 >}}
 
-Breaking the mold right out of the box, I learned of this crypto project not on Twitter, but on [Modern Finance](https://modern.finance/episode/solana-ceo-anatoly-yakovenko/). Its host [Kevin Rose](https://twitter.com/kevinrose) is deep in the crypto space and a very successful founder and angel investor. His excitement about the project should have been enough to warrant an investment, but then I read the [documentation's introduction](https://docs.solana.com/introduction).
+### Profile
+Paul Graham is the founder of YCombinator, thus he has seen many companies thrive and fail and is connected with some really smart minds. The thing I admire most about him (or at least his online persona) is that he seems to pull off holding a few principles rigidly while also having a truly open mind. He is has the vibe of not giving a flying f*&+ about aesthetics for signaling’s sake (just look at his [personal website](http://paulgraham.com/)). When paulg gives investment {{< strike >}}advice{{< /strike >}} hints, I pull out my checkbook.
 
-While the technical jargon and details are a bit over my head upon the first read, the idea is clear: A smart-contract blockchain very high throughput. Ethereum, but faster and with lower fees out-of-the-box!
+### Investment
+Having already (largely) missed out on perhaps the investment opportunity of my lifetime (buying Ether at its launch), we aren't going to despair! $1000 invested on 12/08/21. Locked until 12/08/31.
 
-Additionally, the founder had almost zero *scammer* vibe. Which is nice!
-
-$1000 invested on 08/31/21. Locked until 08/31/31.
-
-{{< chart 90 200 solana >}}
+{{< chart 90 200 ether >}}
