@@ -15,4 +15,4 @@ Additionally, the founder had almost zero *scammer* vibe. Which is nice!
 
 $1000 invested on 08/31/21. Locked until 08/31/31.   
 
-{{< chart 90 200 solana >}}
+{{< chart 90 200 SOL >}}

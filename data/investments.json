@@ -1,0 +1,6 @@
+{
+  "investments": [
+    {"ticker": "ETH", "startDate": "2021-11-01"},
+    {"ticker": "SOL", "startDate": "2021-08-01"}
+  ]
+}

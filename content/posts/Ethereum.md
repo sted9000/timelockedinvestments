@@ -15,4 +15,4 @@ Paul Graham is the founder of YCombinator, thus he has seen many companies thriv
 ### Investment
 Having already (largely) missed out on perhaps the investment opportunity of my lifetime (buying Ether at its launch), we aren't going to despair! $1000 invested on 12/08/21. Locked until 12/08/31.
 
-{{< chart 90 200 ether >}}
+{{< chart 90 200 ETH >}}

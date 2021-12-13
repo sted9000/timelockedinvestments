@@ -1,18 +1,21 @@
 {{ $w := default "100" (.Get 0) }}
 {{ $h := default "300" (.Get 1) }}
-{{ $chartData := .Get 2 }}
+{{ $ticker := .Get 2 }}
 {{ $id := index (seq 999 | shuffle) 1 }}
+{{ $inv := .Site.Data.data}}
 
 <div style="width: {{ $w }}%;height: {{ $h }}px;margin: 0 auto">
     <canvas id="{{ $id }}"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js"></script>
 <script type='text/javascript' src='/charts/chartOptions.js'></script>
-<script type='text/javascript' src='/charts/{{ $chartData }}.js'></script>
 <script type="text/javascript">
+    console.log()
     var ctx = document.getElementById('{{ $id }}').getContext('2d');
-    options.data.labels = labels;
-    options.data.datasets[0].data = data;
+    var inv_object = {{ $inv }}[{{ $ticker}}];
+    options.data.datasets[0].label = {{ $ticker }};
+    options.data.labels = inv_object.date;
+    options.data.datasets[0].data = inv_object.price;
     new Chart(ctx, options);
 
 </script>
